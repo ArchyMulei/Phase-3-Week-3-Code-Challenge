@@ -4,7 +4,7 @@ from review import Review
 import sqlite3
 
 def reset_database():
-    conn = sqlite3.connect('burudani.db')
+    conn = sqlite3.connect('kula.db')
     cursor = conn.cursor()
 
     # Drop existing tables
